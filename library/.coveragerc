@@ -1,0 +1,20 @@
+# .coveragerc to control coverage.py
+
+[run]
+
+source =
+    authentication
+    author
+    book
+    customprofile
+    order
+    utils
+
+omit =
+    *migrations*
+    *apps.py*
+    *urls.py*
+    *__init__.py*
+    *tests.py*
+    *views.py*
+    *admin.py*
